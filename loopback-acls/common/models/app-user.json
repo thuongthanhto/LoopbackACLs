@@ -1,0 +1,24 @@
+{
+  "name": "AppUser",
+  "base": "User",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {},
+  "validations": [],
+  "relations": {
+    "businesses": {
+      "type": "hasMany",
+      "model": "Business",
+      "foreignKey": "ownerId"
+    },
+    "people": {
+      "type": "hasMany",
+      "model": "People",
+      "foreignKey": "userId"
+    }
+  },
+  "acls": [],
+  "methods": {}
+}
