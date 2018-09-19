@@ -36,6 +36,10 @@ app.start = function() {
   });
 };
 
+app.middleware('auth', loopback.token({
+  currentUserLiteral: 'me'
+}));
+
 // start the server if `$ node server.js`
 if (require.main === module) {
   app.start();

@@ -77,6 +77,12 @@
       "principalId": "teamMember",
       "permission": "ALLOW",
       "property": "Get"
+    },
+    {
+      "accessType": "*",
+      "principalType": "ROLE",
+      "principalId": "$everyone",
+      "permission": "DENY"
     }
   ],
   "methods": {}

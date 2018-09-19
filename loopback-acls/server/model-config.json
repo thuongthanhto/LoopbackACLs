@@ -13,7 +13,14 @@
   },
   "AccessToken": {
     "dataSource": "db",
-    "public": false
+    "public": false,
+    "relations": {
+      "user": {
+        "type": "belongsTo",
+        "model": "user",
+        "foreignKey": "userId"
+      }
+    }
   },
   "ACL": {
     "dataSource": "db",
@@ -29,14 +36,14 @@
   },
   "AppUser": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "People": {
     "dataSource": "db",
-    "public": false
+    "public": true
   },
   "Business": {
     "dataSource": "db",
-    "public": false
+    "public": true
   }
 }
