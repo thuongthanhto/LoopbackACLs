@@ -36,8 +36,8 @@ app.start = function() {
   });
 };
 
-app.middleware('auth', loopback.token({
-  currentUserLiteral: 'me'
+app.use(loopback.token({
+  model: app.models.accessToken,
 }));
 
 // start the server if `$ node server.js`
