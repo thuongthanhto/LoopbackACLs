@@ -28,6 +28,16 @@
       "type": "hasMany",
       "model": "AppUser",
       "foreignKey": "userId"
+    },
+    "business": {
+      "type": "belongsTo",
+      "model": "Business",
+      "foreignKey": ""
+    },
+    "appUser": {
+      "type": "belongsTo",
+      "model": "AppUser",
+      "foreignKey": ""
     }
   },
   "acls": [
