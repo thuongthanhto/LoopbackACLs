@@ -36,14 +36,14 @@
       "principalType": "ROLE",
       "principalId": "$owner",
       "permission": "ALLOW",
-      "property": "Create"
+      "property": "create"
     },
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "admin",
       "permission": "ALLOW",
-      "property": "Create"
+      "property": "create"
     },
     {
       "accessType": "EXECUTE",
@@ -64,21 +64,21 @@
       "principalType": "ROLE",
       "principalId": "$owner",
       "permission": "ALLOW",
-      "property": "Get"
+      "property": "get"
     },
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "admin",
       "permission": "ALLOW",
-      "property": "Get"
+      "property": "get"
     },
     {
       "accessType": "EXECUTE",
       "principalType": "ROLE",
       "principalId": "teamMember",
       "permission": "ALLOW",
-      "property": "Get"
+      "property": "get"
     },
     {
       "accessType": "*",
