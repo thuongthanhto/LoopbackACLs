@@ -1,17 +1,23 @@
 {
-  "name": "Business",
+  "name": "LoanApplication",
   "base": "PersistedModel",
   "idInjection": true,
   "options": {
     "validateUpsert": true
   },
   "properties": {
-    "businessName": {
+    "ownerId": {
       "type": "string",
       "required": true
     },
-    "ownerId": {
-      "type": "string"
+    "collaborators": {
+      "type": [
+        "string"
+      ]
+    },
+    "businessId": {
+      "type": "string",
+      "required": true
     }
   },
   "validations": [],

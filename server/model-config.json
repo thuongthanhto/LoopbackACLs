@@ -47,5 +47,9 @@
   "People": {
     "dataSource": "db",
     "public": true
+  },
+  "LoanApplication": {
+    "dataSource": "db",
+    "public": true
   }
 }
