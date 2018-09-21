@@ -39,5 +39,13 @@
   "AppUser": {
     "dataSource": "db",
     "public": true
+  },
+  "Business": {
+    "dataSource": "db",
+    "public": true
+  },
+  "People": {
+    "dataSource": "db",
+    "public": true
   }
 }
